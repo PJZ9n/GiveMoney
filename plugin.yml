@@ -1,4 +1,4 @@
-name: Template
+name: GiveMoney
 version: 1.0.0
-main: PJZ9n\Template\Main
+main: PJZ9n\GiveMoney\Main
 api: 3.0.0
