@@ -54,6 +54,7 @@ class Main extends PluginBase implements Listener
             default:
                 throw new RuntimeException("API \"{$moneyAPI}\" is not supported");
         }
+        $this->getLogger()->info("Using {$moneyAPI}!");
         
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
