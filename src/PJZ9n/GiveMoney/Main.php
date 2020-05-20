@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener
     public function onEnable(): void
     {
         $this->saveDefaultConfig();
-        $moneyAPI = $this->getConfig()->get("use-economy-api");
+        $moneyAPI = $this->getConfig()->get("use-money-api");
         switch ($moneyAPI) {
             case "EconomyAPI":
                 $this->moneyConnector = new EconomyAPI();
