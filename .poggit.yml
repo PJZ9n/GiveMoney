@@ -5,6 +5,6 @@ branches:
 projects:
   GiveMoney:
     libs:
-      - src: PJZ9n\MoneyConnector\MoneyConnector
+      - src: PJZ9n/MoneyConnector/MoneyConnector
         version: 1.0.0
 ...
