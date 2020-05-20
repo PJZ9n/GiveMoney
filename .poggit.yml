@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/PJZ9n/GiveMoney
+build-by-default: true
+branches:
+- master
+projects:
+  GiveMoney:
+    libs:
+      - src: PJZ9n\MoneyConnector\MoneyConnector
+        version: 1.0.0
+...
